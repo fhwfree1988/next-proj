@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const Component = () => {
+const ComponentWMount = () => {
     useEffect(() => {
         return () => {
             console.log("Behavior right before the component is removed from the DOM.");
@@ -9,3 +9,5 @@ const Component = () => {
 
     return <h1>Hello World</h1>;
 };
+
+export default ComponentWMount()

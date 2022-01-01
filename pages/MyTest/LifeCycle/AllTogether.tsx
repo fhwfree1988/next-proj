@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const Component = () => {
+const AllTogether = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             document.title = `Time is: ${new Date()}`;
@@ -14,3 +14,5 @@ const Component = () => {
 
     return <h1>What time is it?</h1>;
 };
+
+export default AllTogether();
