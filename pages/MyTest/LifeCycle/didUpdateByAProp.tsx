@@ -8,4 +8,4 @@ const ComponentdidUBP = ({ foo }) => {
     return <h1>Hello World</h1>;
 };
 
-export default ComponentdidUBP(foo);
+export default ComponentdidUBP;

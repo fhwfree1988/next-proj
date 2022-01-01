@@ -8,4 +8,4 @@ const componentdUpdate = ()=>{
     return <h1>Hello didUpdate</h1>
 }
 
-export default componentdUpdate()
+export default componentdUpdate

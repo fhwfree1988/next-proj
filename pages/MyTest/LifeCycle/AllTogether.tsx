@@ -4,7 +4,7 @@ const AllTogether = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             document.title = `Time is: ${new Date()}`;
-        }, 1000);
+        }, 10);
 
         return () => {
             document.title = "Time stopped.";
@@ -15,4 +15,4 @@ const AllTogether = () => {
     return <h1>What time is it?</h1>;
 };
 
-export default AllTogether();
+export default AllTogether;

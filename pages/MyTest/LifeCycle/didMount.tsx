@@ -10,4 +10,4 @@ const componentdMount= ()=>{
     return <h1>Hello didMount</h1>
 }
 
-export default componentdMount();
+export default componentdMount;
