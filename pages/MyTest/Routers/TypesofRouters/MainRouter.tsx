@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 const User = () => {
     return <div>This is the user page</div>;
@@ -22,14 +22,14 @@ const MainRouter= ()=>{
                         <Link to="/user/:id">User</Link>
                     </div>
                 </nav>
-                <Switch>
+                <Routes>
                     <Route path="/user/:id">
                         <User />
                     </Route>
                     <Route path="/" exact>
                         <Home />
                     </Route>
-                </Switch>
+                </Routes>
             </BrowserRouter>
         </div>
     );
